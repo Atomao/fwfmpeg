@@ -8,6 +8,7 @@ cd fwfmpeg
 docker build -t fwfmpeg .
 docker run  -v $(pwd)/data:/src/data -v $(pwd)/config.yaml:/src/config.yaml fwfmpeg
 ```
+**Note:** that `docker run` command use volume folder data. How folder look like described below
 ## Data folder structure
 ```
 ├── data
