@@ -1,0 +1,8 @@
+video_path: data/input/video.mp4
+text_path: data/output/
+model_config:
+  model_size: distil-small.en
+  beam_size: 5
+  language: en
+  condition_on_previous_text: false
+  download_root: data/models/
